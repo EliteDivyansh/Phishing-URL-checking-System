@@ -1,4 +1,2 @@
 # Phishing-URL-checking-System
-A simple Flask-based web app that detects phishing URLs using rule-based checks. It analyzes URL patterns, HTTPS usage, shorteners, keywords, and subdomains to estimate safety — no machine learning required. Lightweight, fast, and perfect for cybersecurity demos or college projects.
-
- 
+Lightweight Flask web app that detects phishing URLs using simple rule-based checks (no ML). It analyzes URL patterns — IP addresses, missing HTTPS, shorteners, suspicious keywords, long URLs and excessive subdomains — and returns a safety score. Ideal for demos and quick testing.
