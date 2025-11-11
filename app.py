@@ -14,5 +14,4 @@ def index():
     return render_template("index.html", xx=-1, url="")
 
 if __name__ == "__main__":
-    # debug True is fine for local demo
     app.run(debug=True)
